@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "wilianmaique/php-pix-validator",
+  "description": "Simple LIB to validate keys pix brazil",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "WilianMaique\\PixValidator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Wilian Maique"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.1"
+  }
+}
